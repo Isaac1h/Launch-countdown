@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+:root{
+  --Soft-red: hsl(345, 95%, 68%);
+  --Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --Very-verry-dark-blue: hsl(234, 17%, 12%);
+  --Grayish-blue: hsl(237, 18%, 59%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: var(--Very-verry-dark-blue);
+  background-image: url(./images/bg-stars.svg);
+  margin-top: 50px;
+  overflow: hidden; 
+}
+
+.hills-image {
+  z-index: -1;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: .4rem;
+}
+
+.timer-card {
+  background-color: var(--Dark-desaturated-blue);
+  border-radius: 8px;
+  max-width: 150px;
+}
+
+.timer-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--Soft-red);
+}
+
+.timer-label {
+  font-size: 0.8rem;     
+  letter-spacing: 0.3rem;
+  color: var(--Grayish-blue);
+}
+
+
+.attribution {
+   color: whitesmoke;
+  position: fixed;
+  bottom: 20px;
+  left: 0; right: 0;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+}
+
+.attribution a{
+  color:var(--Grayish-blue);
+  text-decoration: none;
+}
+
+
